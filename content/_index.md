@@ -6,8 +6,7 @@ date: 2019-09-08T19:58:12+02:00
 menu: "main"
 weight: 1
 ---
-<h3>Upcoming Public Gigs</h3>
-<!-- <?php show_next();?> -->
+
 <h3>A Quick Taster&hellip;</h3>
 
 <div class="videos">

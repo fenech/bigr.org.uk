@@ -5,4 +5,6 @@ menu: "main"
 weight: 5
 ---
 
-blah a
+Email us at the following address:
+<p id="email"><a href="mailto:thebigrbigband@gmail.com">thebigrbigband@gmail.com</a></p>
+Or leave us a message via Facebook...

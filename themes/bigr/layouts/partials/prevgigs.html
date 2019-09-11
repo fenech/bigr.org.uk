@@ -1,0 +1,14 @@
+<table>
+  {{ range sort (where .gigs "date" "lt" (now.Format "2006-01-02")) "date" "desc" }}
+    <tr>
+      <td>{{ (time .date).Format "02/01/06" }}</td>
+      <td>
+        {{ if .link }}
+          <a href="{{ .link }}">{{ .details }}</a>
+        {{ else }}
+          {{ .details }}
+        {{ end }}
+      </td>
+    </tr>
+  {{ end }}
+</table>

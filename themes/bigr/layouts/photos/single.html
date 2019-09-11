@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  {{ range $.Site.Data.photos.photos }}
+    {{ $n := .name }}
+    {{ $a := .attrib }}
+    <div class="thumb-gallery">
+      <h3>{{ .title }}</h3>
+      {{ $photos := readDir (path.Join "/static/img/photos/" $n) }}
+      {{ range $photos }}
+        {{ if eq (path.Ext .Name) ".jpg" }}
+          {{ $f := path.Base .Name }}
+          <div class="floatLeft thumb-container">
+            {{ $img := path.Join "/img/photos/" $n "/" $f }}
+            <a href="{{ $img }}">
+              <img
+              {{ if fileExists (path.Join "/static/img/photos/" $n "/thumbs/" $f) }}
+                src="{{ path.Join "/img/photos/" $n "/thumbs/" $f }}"
+              {{ else }}
+                src="{{ $img }}"
+              {{ end }}
+              />
+            </a>
+          </div>
+        {{ end }}
+      {{ end }}
+      <div class="clearer"></div>
+      {{ if $a }}
+        <p>({{ if gt (len $photos) 0 }}Photos{{ else }}Photo{{ end }}
+          {{ $a }})</p>
+      {{ end }}
+    </div>
+  {{ end }}
+  <p>More photos on <a title="Facebook Photos" href="http://www.facebook.com/pages/Big-R-Big-Band/173085436049140?sk=photos" target="_blank">facebook</a>.</p>
+{{ end }}

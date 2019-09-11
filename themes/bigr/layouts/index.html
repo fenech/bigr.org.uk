@@ -2,5 +2,7 @@
   <p id="strapline">
     {{ .Description }}
   </p>
+  <h3>Upcoming Public Gigs</h3>
+  {{ partial "nextgigs.html" $.Site.Data.gigs }}
   {{ .Content }}
 {{ end }}
