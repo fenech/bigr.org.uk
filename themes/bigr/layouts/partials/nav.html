@@ -1,0 +1,11 @@
+<nav id="navbar" class="gradient">
+  <ul id="nav">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      {{ $is := $currentPage.IsMenuCurrent "main" . }}
+      <li class="gradient" {{ if $is }} id="currentpage" {{ end }}>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>

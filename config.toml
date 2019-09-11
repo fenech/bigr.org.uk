@@ -1,0 +1,4 @@
+baseURL = "https://bigr.org.uk/"
+languageCode = "en-gb"
+title = "Big R Big Band"
+theme = "bigr"

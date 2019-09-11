@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ block "title" . }}
+    {{ .Site.Title }}
+  {{ end }}</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <!--[if gte IE 9]>
+    <style type="text/css">
+      .gradient {
+        filter: none!important;
+      }
+    </style>
+  <![endif]-->
+  {{ template "_internal/opengraph.html" . }}
+</head>
+<body>
+  <h1 class="logo">
+    <a href="http://bigr.org.uk">
+      <img src="/img/header.png" alt="Big R Big Band logo" title="Big R Big Band" />
+    </a>
+  </h1>
+
+  <div id="wrapper">
+    {{ partial "nav" . }}
+    <div class="clearer"></div>
+
+    <div id="maincontent">
+      {{ block "main" . }}
+      {{ end }}
+      <div id="footer" class="clear">
+        <a class="icon" href="https://www.facebook.com/pages/Big-R-Big-Band/173085436049140">
+        <img src="/img/facebook.png" alt="Big R Facebook"/></a>
+        <a class="icon" href="https://twitter.com/TheBigRBigBand">
+        <img src="/img/twitter.png" alt="Big R Twitter"/></a>
+      </div>
+    </div>
+</body>
+</html>

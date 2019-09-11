@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Big R Big Band</title>
+    <link>https://bigr.org.uk/</link>
+    <description>Recent content in Home on Big R Big Band</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 08 Sep 2019 19:58:12 +0200</lastBuildDate>
+    
+	<atom:link href="https://bigr.org.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
