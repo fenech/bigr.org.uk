@@ -1,0 +1,14 @@
+name: daily build
+
+on:
+  schedule:
+  - cron: 0 0 * * *
+
+jobs:
+  trigger-build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: trigger build
+      env: # Or as an environment variable
+        BUILD_HOOK: ${{ secrets.BUILD_HOOK }}
+      run: curl -X POST -d {} "$BUILD_HOOK"
