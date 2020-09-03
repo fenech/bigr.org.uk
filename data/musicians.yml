@@ -9,8 +9,6 @@ current:
   instrument: Trumpet
 - name: Sav Pacini
   instrument: Trombone
-- name: Louis Koonjean
-  instrument: Trombone
 - name: Pete Campion-Spall
   instrument: Trombone
 - name: Joe Bradford
@@ -20,12 +18,12 @@ current:
 - name: Gustave Savy
   instrument: Alto Sax, Baritone Sax
 - name: Lisa Tolfree
-  instrument: Alto Sax
-- name: Dom Self
-  instrument: Alto Sax
+  instrument: Alto Sax, Clarinet
+- name: Rich Tolfree
+  instrument: Alto Sax, Clarinet
 - name: Richard Thomas
   instrument: Tenor Sax
-- name: Rich Tolfree
+- name: Sophie Stockham
   instrument: Tenor Sax
 - name: Dave Perry
   instrument: Baritone Sax, Clarinet
@@ -39,6 +37,8 @@ former:
 - name: Yi Vei Kok
   instrument: Trumpet
 - name: Richard Barker
+  instrument: Alto Sax
+- name: Dom Self
   instrument: Alto Sax
 - name: Rachel Kerry
   instrument: Piano
@@ -57,6 +57,8 @@ former:
 - name: Bob Chapman
   instrument: Bass Trombone
 - name: Dave Smallwood
+  instrument: Trombone
+- name: Louis Koonjean
   instrument: Trombone
 - name: Petra McKay
   instrument: Tenor Sax / Flute

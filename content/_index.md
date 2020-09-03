@@ -18,7 +18,7 @@ weight: 1
 
 <h3>The Band</h3>
 <div class="floatRight image-container">
-<a href="img/photos/2015-misc/big r trinity.jpg"><img src="img/photos/2015-misc/big r trinity.jpg" alt="" /></a>
+<a href="img/photos/2020-misc/20200116_220802.jpg"><img src="img/photos/2020-misc/20200116_220802.jpg" alt="The Big R Big Band performing live" /></a>
 </div>
 <p>We are always on the lookout for opportunities to play to interested audiences; Please contact us if you have something in mind.</p>
 <p><a href="mailto:thebigrbigband@gmail.com">thebigrbigband@gmail.com</a></p>

@@ -7,10 +7,4 @@ type: "about"
 ---
 
 <p>
-Drummer Richie Paradise and sax player Richard Thomas combined a shared love of
-classic swing big band music to put together a new big band based at the Cube
-Cinema using the soya yoghurt dregs (as opposed to the cream) of the Bristol
-Jazz scene. The first rehearsal took place in May 2010 and included a
-disproportionate multiplicity of Richards, hence "Big R Big Band". Set lists
-include renditions of classics by the likes of Count Basie, Dizzy Gillespie,
-Duke Ellington, Buddy Rich, plus a motley collection of others..</p>
+First formed in 2010, a band with far too many Richards than is healthy (hence Big R Big Band), discovered a shared love of playing classic Big Band music, in particular the swing music of the 30's and 40's. Now well established across the country as one of the best swing dance big bands you can hear the music of Duke Ellington, Count Basie, Artie Shaw, Benny Goodman, and many many more, played as it was back when it was first played: as dance music.</p>
