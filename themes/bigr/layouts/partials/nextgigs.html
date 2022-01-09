@@ -1,14 +1,18 @@
 {{ range sort (where .gigs "date" "ge" (now.Format "2006-01-02")) "date" }}
   <div class="gig">
-    {{ if .image }}<img class="gig-img" src="/img/flyers/{{ .image }}" alt="gig flyer" />{{ end }}
-    <span class="gig-date">{{ (time .date).Format "2nd January 2006" }}:</span>
-    {{ if .link }}
-      <a href="{{ .link }}">
-        <span class="gig-details">{{ .details }}</span>
-      </a>
-    {{ else }}
+    {{- if .image }}<img class="gig-img" src="/img/flyers/{{ .image }}" alt="gig flyer" />{{ end }}
+    <span class="gig-date">
+      {{- $d := time .date }}
+      {{- $d.Format "2" }}
+      {{- if in (slice 1 21 31) $d.Day}}st{{ else if in (slice 2 22) $d.Day}}nd{{ else if in (slice 3 23) $d.Day}}rd{{ else }}th{{ end }}
+      {{- $d.Format " January 2006" }}:</span>
+    {{- if .link }}
+    <a href="{{ .link }}">
       <span class="gig-details">{{ .details }}</span>
-    {{ end }}
+    </a>
+    {{- else }}
+    <span class="gig-details">{{ .details }}</span>
+    {{- end }}
   </div>
 {{ else }}
   <p>Currently we don't have any public gigs lined up. If you would like to book us, contact us!</p>

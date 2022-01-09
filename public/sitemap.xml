@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://bigr.org.uk/about/</loc>
-    <lastmod>2019-09-08T23:47:10+02:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://bigr.org.uk/</loc>
     <lastmod>2019-09-08T19:58:12+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://bigr.org.uk/about/</loc>
+    <lastmod>2019-09-08T23:47:10+02:00</lastmod>
+  </url><url>
+    <loc>https://bigr.org.uk/photos/</loc>
+    <lastmod>2019-09-09T08:29:11+02:00</lastmod>
+  </url><url>
+    <loc>https://bigr.org.uk/videos/</loc>
+    <lastmod>2019-09-09T08:29:24+02:00</lastmod>
+  </url><url>
+    <loc>https://bigr.org.uk/contact/</loc>
+    <lastmod>2019-09-09T08:29:28+02:00</lastmod>
+  </url><url>
     <loc>https://bigr.org.uk/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bigr.org.uk/tags/</loc>
-    <priority>0</priority>
   </url>
-  
 </urlset>

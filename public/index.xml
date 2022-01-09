@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Big R Big Band</title>
@@ -6,10 +6,44 @@
     <description>Recent content in Home on Big R Big Band</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 08 Sep 2019 19:58:12 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2019 19:58:12 +0200</lastBuildDate><atom:link href="https://bigr.org.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://bigr.org.uk/about/</link>
+      <pubDate>Sun, 08 Sep 2019 23:47:10 +0200</pubDate>
+      
+      <guid>https://bigr.org.uk/about/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://bigr.org.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Photos</title>
+      <link>https://bigr.org.uk/photos/</link>
+      <pubDate>Mon, 09 Sep 2019 08:29:11 +0200</pubDate>
+      
+      <guid>https://bigr.org.uk/photos/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Videos</title>
+      <link>https://bigr.org.uk/videos/</link>
+      <pubDate>Mon, 09 Sep 2019 08:29:24 +0200</pubDate>
+      
+      <guid>https://bigr.org.uk/videos/</guid>
+      <description>Most of our videos can be found on our YouTube channel.
+Below are a couple of extra ones from our friends.
+ Big R Big Band - Bristol Jam Circle at The Canteen   Big R Big Band with Claudia Fontes solo - Oxford Swing festival 2020   Oxford Swing Festival 2020 - Big R Big Band Jam Circle   Kansas City Shout   Vine Street Rumble   &#34;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://bigr.org.uk/contact/</link>
+      <pubDate>Mon, 09 Sep 2019 08:29:28 +0200</pubDate>
+      
+      <guid>https://bigr.org.uk/contact/</guid>
+      <description>Email us at the following address:</description>
+    </item>
     
   </channel>
 </rss>
