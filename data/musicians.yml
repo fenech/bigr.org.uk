@@ -1,8 +1,6 @@
 current:
 - name: Geoff Woodward
   instrument: Trumpet
-- name: Richard Matthews
-  instrument: Trumpet
 - name: Matt Bird
   instrument: Trumpet
 - name: Ben Haslam
@@ -21,8 +19,6 @@ current:
   instrument: Alto Sax, Clarinet
 - name: Rich Tolfree
   instrument: Alto Sax, Clarinet
-- name: Richard Thomas
-  instrument: Tenor Sax
 - name: Sophie Stockham
   instrument: Tenor Sax
 - name: Dave Perry
@@ -74,3 +70,7 @@ former:
   instrument: String Bass
 - name: Hannah Boxall
   instrument: Trumpet
+- name: Richard Matthews
+  instrument: Trumpet
+- name: Richard Thomas
+  instrument: Tenor Sax
