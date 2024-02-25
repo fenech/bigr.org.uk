@@ -1,29 +1,25 @@
 {{ define "main" }}
-  <h2>{{ .Title }}</h2>
-  {{ .Content }}
+<h2>{{ .Title }}</h2>
+{{ .Content }}
 
-  <h3>Current Members</h3>
+<h3>Current Members</h3>
 
-  <div class="floatRight image-container">
-    <a href="/img/photos/2011-11-27 Running Order (YV).jpg">
-      <img src="/img/photos/2011-11-27 Running Order (YV).jpg" alt="" />
-    </a>
-  </div>
+<div class="floatRight image-container">
+  <a href="/img/photos/2011-11-27 Running Order (YV).jpg">
+    <img src="/img/photos/2011-11-27 Running Order (YV).jpg" alt="" />
+  </a>
+</div>
 
-  {{ partial "musicians.html" $.Site.Data.musicians.current }}
+{{ partial "musicians.html" $.Site.Data.musicians.current }}
 
-  <h3>Former Members &amp; Featured Musicians</h3>
+<div class="floatLeft image-container image-container-narrow">
+  <a href="/img/John Hegley Flyer.jpg">
+    <img src="/img/John Hegley Flyer.jpg" alt="" />
+  </a>
+</div>
 
-  {{ partial "musicians.html" $.Site.Data.musicians.former }}
+<h3>Previous Gigs</h3>
+{{ partial "prevgigs.html" $.Site.Data.gigs }}
 
-  <div class="floatLeft image-container image-container-narrow">
-    <a href="/img/John Hegley Flyer.jpg">
-      <img src="/img/John Hegley Flyer.jpg" alt="" />
-    </a>
-  </div>
-
-  <h3>Previous Gigs</h3>
-  {{ partial "prevgigs.html" $.Site.Data.gigs }}
-
-  <div class="clearer"></div>
+<div class="clearer"></div>
 {{ end }}
