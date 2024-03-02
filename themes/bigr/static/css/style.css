@@ -137,6 +137,9 @@ ul#nav {
 table.musicians {
     width: 40%;
 }
+.musicians + .musicians {
+    margin-top: 1em;
+}
 .musicians .name {
     width: 50%;
 }
