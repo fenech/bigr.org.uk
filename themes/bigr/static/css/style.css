@@ -115,6 +115,10 @@ ul#nav {
     margin: 2em 0;
 }
 
+.image-container.the-band {
+  margin: 0 auto;
+}
+
 #maincontent {
     padding: 0 32px 16px;
 }

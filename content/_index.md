@@ -7,23 +7,6 @@ menu: "main"
 weight: 1
 ---
 
-<h3>A Quick Taster&hellip;</h3>
-
-<div class="videos">
-    <div class="video-container video-container-main">
-    <iframe src="https://www.youtube.com/embed/vRvWGjtmQAU" frameborder="0" allowfullscreen></iframe>
-    <p class="centerAlign">"Sing Sing Sing", Slapstick 2016</p>
-    </div>
-</div>
-
-<h3>The Band</h3>
-<div class="floatRight image-container">
-<a href="img/photos/2020-misc/20200116_220802.jpg"><img src="img/photos/2020-misc/20200116_220802.jpg" alt="The Big R Big Band performing live" /></a>
-</div>
-<p>We are always on the lookout for opportunities to play to interested audiences; Please contact us if you have something in mind.</p>
-<p><a href="mailto:thebigrbigband@gmail.com">thebigrbigband@gmail.com</a></p>
-
-<div class="clearer"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="/js/videos.js"></script>

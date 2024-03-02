@@ -5,4 +5,28 @@
   <h3>Upcoming Public Gigs</h3>
   {{ partial "nextgigs.html" $.Site.Data.gigs }}
   {{ .Content }}
+
+  <h3>A Quick Taster&hellip;</h3>
+
+  <div class="videos">
+    <div class="video-container video-container-main">
+      <iframe src="https://www.youtube.com/embed/vRvWGjtmQAU" frameborder="0" allowfullscreen></iframe>
+      <p class="centerAlign">"Sing Sing Sing", Slapstick 2016</p>
+    </div>
+  </div>
+
+  <h3>The Band</h3>
+  <div class="the-band image-container image-container-wide">
+    {{ $image := .Resources.GetMatch "215-805A2899.jpg" }}
+    {{ $res := $image.Resize "600x" }}
+    <a href="{{ $image.RelPermalink }}">
+      <img src="{{ $res.RelPermalink }}" width="{{ $res.Width }}" height="{{ $res.Height }}" alt="The Big R Big Band performing live">
+    </a>
+    <p>photo by <a href="https://www.mattchristie.com">Matt Christie</a></p>
+
+  </div>
+
+  <h3>Contact Us</h3>
+  <p>We are always on the lookout for opportunities to play to interested audiences; Please contact us if you have something in mind.</p>
+  <p><a href="mailto:thebigrbigband@gmail.com">thebigrbigband@gmail.com</a></p>
 {{ end }}
