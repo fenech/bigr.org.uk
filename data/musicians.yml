@@ -6,13 +6,13 @@ current:
       instrument: Trumpet
     - name: Matt Bird
       instrument: Trumpet
-    - name: Oli Girling
+    - name: Jake Bulmer
       instrument: Trumpet
     - name: Sav Pacini
       instrument: Trombone
     - name: Pete Campion-Spall
       instrument: Trombone
-    - name: Joe Bradford
+    - name: Alex Mclean
       instrument: Trombone
     - name: Will Holley
       instrument: Bass Trombone
@@ -23,7 +23,7 @@ current:
       instrument: Alto Sax, Clarinet
     - name: Claire Schollick
       instrument: Tenor Sax
-    - name: Tom Gorst
+    - name: Kevin Figes
       instrument: Tenor Sax
     - name: Gus Savy
       instrument: Baritone Sax, Clarinet
@@ -87,3 +87,9 @@ former:
     instrument: Baritone Sax, Clarinet
   - name: Caitlin Callahan
     instrument: String Bass
+  - name: Oli Girling
+    instrument: Trumpet
+  - name: Tom Gorst
+    instrument: Tenor Sax
+  - name: Joe Bradford
+    instrument: Trombone

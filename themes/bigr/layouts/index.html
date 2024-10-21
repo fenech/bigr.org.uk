@@ -1,32 +1,64 @@
 {{ define "main" }}
-  <p id="strapline">
-    {{ .Description }}
+<div id="strapline">
+  <p>
+    Now established as one of the UK’s favourite dance big bands, Big R are
+    facilitators of SWING.
   </p>
-  <h3>Upcoming Public Gigs</h3>
-  {{ partial "nextgigs.html" $.Site.Data.gigs }}
-  {{ .Content }}
 
-  <h3>A Quick Taster&hellip;</h3>
+  <p>
+    Led from the front by Bristol's best dressed drummer, Richie Paradise, the
+    16 piece band have a great eye for dance charts and will keep the dance
+    floor busy, reading the crowd and adapting sets as necessary.
+  </p>
 
-  <div class="videos">
-    <div class="video-container video-container-main">
-      <iframe src="https://www.youtube.com/embed/vRvWGjtmQAU" frameborder="0" allowfullscreen></iframe>
-      <p class="centerAlign">"Sing Sing Sing", Slapstick 2016</p>
-    </div>
+  <p>
+    So if you’re a lunatic for Lindy, go soft for Shag, bellow for Balboa,
+    desperate for some Duke, or begging for Basie, Big R have got you covered.
+  </p>
+
+  <p>This band are Savoy savvy.</p>
+
+  <p>
+    Dashing, debonair, dandy and dapper, the classic swing tunes of the 30's and
+    40's are sounding, and looking, pretty damn good.
+  </p>
+</div>
+
+<h3>Upcoming Public Gigs</h3>
+{{ partial "nextgigs.html" $.Site.Data.gigs }} {{ .Content }}
+
+<h3>A Quick Taster&hellip;</h3>
+
+<div class="videos">
+  <div class="video-container video-container-main">
+    <iframe
+      src="https://www.youtube.com/embed/vRvWGjtmQAU"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <p class="centerAlign">"Sing Sing Sing", Slapstick 2016</p>
   </div>
+</div>
 
-  <h3>The Band</h3>
-  <div class="the-band image-container image-container-wide">
-    {{ $image := .Resources.GetMatch "215-805A2899.jpg" }}
-    {{ $res := $image.Resize "600x" }}
-    <a href="{{ $image.RelPermalink }}">
-      <img src="{{ $res.RelPermalink }}" width="{{ $res.Width }}" height="{{ $res.Height }}" alt="The Big R Big Band performing live">
-    </a>
-    <p>photo by <a href="https://www.mattchristie.com">Matt Christie</a></p>
+<h3>The Band</h3>
+<div class="the-band image-container image-container-wide">
+  {{ $image := .Resources.GetMatch "215-805A2899.jpg" }} {{ $res :=
+  $image.Resize "600x" }}
+  <a href="{{ $image.RelPermalink }}">
+    <img
+      src="{{ $res.RelPermalink }}"
+      width="{{ $res.Width }}"
+      height="{{ $res.Height }}"
+      alt="The Big R Big Band performing live"
+    />
+  </a>
+  <p>photo by <a href="https://www.mattchristie.com">Matt Christie</a></p>
+</div>
 
-  </div>
-
-  <h3>Contact Us</h3>
-  <p>We are always on the lookout for opportunities to play to interested audiences; Please contact us if you have something in mind.</p>
-  <p><a href="mailto:thebigrbigband@gmail.com">thebigrbigband@gmail.com</a></p>
+<h3>Contact Us</h3>
+<p>
+  We are always on the lookout for opportunities to play to interested
+  audiences; Please contact us if you have something in mind.
+</p>
+<p><a href="mailto:thebigrbigband@gmail.com">thebigrbigband@gmail.com</a></p>
 {{ end }}
