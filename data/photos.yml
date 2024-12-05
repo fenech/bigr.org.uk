@@ -1,4 +1,13 @@
 photos:
+- name: "2024-10-1"
+  title: "Photo from 2024"
+  attrib: "Matt Christie"
+- name: "2024-10-2"
+  title: "Oxford pics from 2024"
+  attrib: "Photography Pav"
+- name: "2024-10-3"
+  title: "Outside pic from 2024"
+  attrib: "Adam Vaughan"
 - name: "2017-misc"
   title: "Photos from between 2015 and 2017"
 - name: "2015-misc"
